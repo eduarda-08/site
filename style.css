@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 0;
+    color: #080707;
+}
+
+h1 {
+    text-align: center;
+    color: #036839;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+form input, form button {
+    padding: 10px;
+    font-size: 1em;
+}
+
+form button {
+    background-color: #24bf55;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #142e1d;
+}
+
+#busca {
+    display: block;
+    margin: 0 auto 20px auto;
+    padding: 10px;
+    width: 60%;
+    font-size: 1em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #6fc29e;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+button.acao {
+    padding: 5px 10px;
+    margin: 2px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+}
+
+button.adicionar {
+    background-color: #4CAF50;
+}
+
+button.remover {
+    background-color: #f48b36;
+}
+.sem-estoque {
+    background-color: #f5a5a5; /* Um tom de vermelho claro para destaque */
+    font-weight: bold;
+}
